@@ -1,4 +1,4 @@
-setwd("C:/Users/PC/Desktop/Geopsy/s2indices")
+setwd("C:/Users/PC/Desktop/s2indices")
 getwd()
 dir()
 #activate libraries
@@ -120,3 +120,4 @@ combined <- rbind(ndvi_transposed, evi_transposed,
                   lai_transposed, ndre_transposed,
                   mndwi_transposed,bsi_transposed)
 write.csv(combined,"correlation.csv")
+
